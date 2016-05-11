@@ -1,6 +1,6 @@
 {
     "home": {
-        "title": "Välkommen Java Hipster!",
+        "title": "Solid Beans tidsrapportering",
         "subtitle": "Det här är din hemsida",
         "logged": {
             "message": "Du är inloggad som \"{{username}}\"."

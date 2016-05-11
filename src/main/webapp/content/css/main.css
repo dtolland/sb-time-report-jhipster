@@ -1,7 +1,7 @@
 body {
-    background: #fafafa;
+    background: black; /*#fafafa;*/
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #333;
+    color: black; /*#333;*/
 }
 
 /* ==========================================================================
@@ -47,6 +47,10 @@ Developement Ribbon
     pointer-events: none;
 }
 
+.navbar {
+    background-color: black;
+    border-color: black;
+}
 /* ==========================================================================
 Version number in navbar
 ========================================================================== */
@@ -101,7 +105,7 @@ Main page styles
     display: inline-block;
     width: 347px;
     height: 497px;
-    background: url("../images/hipster.png") no-repeat center top;
+    background: url("../images/alarm-clock-152670_960_720.png") no-repeat center top;
     background-size: contain;
 }
 
