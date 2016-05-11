@@ -1,0 +1,15 @@
+version: '2'
+services:
+    sb_time_report-app:
+        image: sb_time_report
+        external_links:
+            - sb_time_report-postgresql:postgresql
+        environment:
+            - SPRING_PROFILES_ACTIVE=prod
+            - SPRING_DATASOURCE_URL=jdbc:postgresql://postgresql:5432/sb_time_report
+        ports:
+            - 8080:8080
+    sb_time_report-postgresql:
+        extends:
+            file: postgresql.yml
+            service: sb_time_report-postgresql

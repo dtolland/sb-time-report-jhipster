@@ -1,0 +1,12 @@
+version: '2'
+services:
+    sb_time_report-postgresql:
+        container_name: sb_time_report-postgresql
+        image: postgres:9.5.1
+        # volumes:
+        #     - ~/volumes/jhipster/sb_time_report/postgresql/:/var/lib/postgresql/
+        environment:
+            - POSTGRES_USER=sb_time_report
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432
